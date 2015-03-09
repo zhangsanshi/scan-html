@@ -1,0 +1,36 @@
+{
+	"js": {
+		"default": {
+			"src": [
+				"test/js/app.js",
+				"test/js/app1.js"
+			],
+			"dist": "tmp/test/js/default.js"
+		}
+	},
+	"css": {
+		"default": {
+			"src": [
+				"test/css/layout.css",
+				"test/css/common.css"
+			],
+			"dist": "tmp/test/css/default.css"
+		},
+		"default1": {
+			"src": [
+				"test/css/layout2.css",
+				"test/css/common2.css"
+			],
+			"dist": "tmp/test/css/default1.css"
+		}
+	},
+	"copy": {
+		"js": [
+			"test/js/view.js",
+			"test/view.js"
+		],
+		"css": [
+			"test/css/common.css"
+		]
+	}
+}
