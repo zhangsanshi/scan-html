@@ -47,7 +47,7 @@ grunt.initConfig({
 <div class="scanHtml" data-merge="css/default1.css" >
         <link rel="stylesheet" href="css/layout2.css" >
         <link rel="stylesheet" href="css/common2.css" >
-    </div>
+</div>
 ```
 
 ### Options
