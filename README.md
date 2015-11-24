@@ -31,6 +31,24 @@ grunt.initConfig({
   },
 });
 ```
+### Note
+在你的html里需要用一个标签来包裹需要合并的块，并添加相应的属性，除此之外的js,css默认仅作为复制使用
+
+#### 需要删除的块，添加class:scanDelete
+
+```html
+<div class="scanDelete">
+    <script src="js/app2.js"></script>
+</div>
+```
+#### 需要合并的块，添加class:scanHtml，并添加属性data-merge(合并后的文件名)
+
+```html
+<div class="scanHtml" data-merge="css/default1.css" >
+        <link rel="stylesheet" href="css/layout2.css" >
+        <link rel="stylesheet" href="css/common2.css" >
+</div>
+```
 
 ### Options
 
