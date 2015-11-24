@@ -1,7 +1,7 @@
 {
   "name": "grunt-scan-html",
   "description": "scan html get static resource",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "homepage": "https://github.com/zhangsanshi/scan-html",
   "author": {
     "name": "zhangsanshi",
